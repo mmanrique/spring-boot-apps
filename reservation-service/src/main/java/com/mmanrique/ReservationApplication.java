@@ -18,6 +18,6 @@ public class ReservationApplication {
 
     @Bean
     public CommandLineRunner getCommandLineRunner(final ReservationRepository reservationRepository) {
-        return strings -> Stream.of("R1", "R22", "R3", "R4").forEach(s -> reservationRepository.save(new Reservation(s)));
+        return strings -> Stream.of("R1", "R2", "R3", "R4").forEach(s -> reservationRepository.save(new Reservation(s)));
     }
 }
