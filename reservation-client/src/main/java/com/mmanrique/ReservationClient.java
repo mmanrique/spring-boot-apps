@@ -13,6 +13,6 @@ import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 public class ReservationClient {
 
     public static void main(String[] args) {
-        SpringApplication.run(ReservationClient.class);
+        SpringApplication.run(ReservationClient.class, args);
     }
 }

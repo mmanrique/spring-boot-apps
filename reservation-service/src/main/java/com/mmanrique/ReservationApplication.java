@@ -18,7 +18,7 @@ import java.util.stream.Stream;
 public class ReservationApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ReservationApplication.class);
+        SpringApplication.run(ReservationApplication.class, args);
     }
 
     @Bean
